@@ -36,12 +36,12 @@ public class Libro {
         this.numeroDePaginas += 10;
     }
     
-    public void aumentarTamañoDeFuente(int nuevoNumeroDePaginas){
+    public void aumentarTamanoDeFuente(int nuevoNumeroDePaginas){
         if(nuevoNumeroDePaginas<=this.numeroDePaginas){
             System.out.println(String.valueOf(numeroDePaginas));
         }else{
             this.numeroDePaginas = nuevoNumeroDePaginas;
-            System.out.println(String.valueOf(nuevoNumeroDePaginas) + " páginas");            
+            System.out.println(String.valueOf(nuevoNumeroDePaginas) + " paginas");            
         }
         
     }
